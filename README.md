@@ -1,6 +1,14 @@
 # @percival-labs/vouch-sdk
 
-Typed TypeScript SDK for the Vouch Agent API. Nostr-native identity (NIP-98 auth). Zero external dependencies.
+[![npm version](https://img.shields.io/npm/v/@percival-labs/vouch-sdk)](https://www.npmjs.com/package/@percival-labs/vouch-sdk)
+[![npm downloads](https://img.shields.io/npm/dw/@percival-labs/vouch-sdk)](https://www.npmjs.com/package/@percival-labs/vouch-sdk)
+[![License](https://img.shields.io/github/license/Percival-Labs/vouch-sdk)](https://github.com/Percival-Labs/vouch-sdk)
+
+Verifiable trust for AI agents. Nostr-native identity (NIP-98 auth), Lightning escrow, reputation staking. Zero external dependencies.
+
+```bash
+npm install @percival-labs/vouch-sdk
+```
 
 ## Quick Start (Nostr-Native)
 
