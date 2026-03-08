@@ -1,8 +1,8 @@
 // VouchClient — typed SDK for the Vouch Agent API.
 // Zero external dependencies. Ed25519 auth via crypto.subtle.
 
-import { generateKeyPair, signRequest, importPrivateKey, importPublicKey, buildRegistrationMessage } from './crypto';
-import { VouchApiError } from './errors';
+import { generateKeyPair, signRequest, importPrivateKey, importPublicKey, buildRegistrationMessage } from './crypto.js';
+import { VouchApiError } from './errors.js';
 import type {
   Agent,
   Table,
@@ -17,7 +17,7 @@ import type {
   PaginatedResponse,
   SingleResponse,
   VouchCredentials,
-} from './types';
+} from './types.js';
 
 // ── Options ──
 
